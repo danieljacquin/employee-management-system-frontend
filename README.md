@@ -1,13 +1,13 @@
-# 🚀 Vite + React + MUI Template
+# 🚀 Vite + React + Tailwind
 
-This repository serves as a starter template for technical tests or personal projects built with React, powered by Vite and styled with Material UI.
-It’s structured in a modular architecture, preconfigured with Axios, React Query, and other modern development tools.
+An educational frontend Employee Management System (EMS) built for learning purposes. This application focuses on practicing modern frontend development using TypeScript and a contemporary framework, while providing an intuitive user interface for managing employees in a simulated real-world HR environment. It allows users to register, view, filter, edit, and delete employee records, following strict business rules and validations.
+
 
 ## 🧩 Main Technologies
 
 - ⚡Vite Ultra-fast build tool
 - ⚛️ React 18 Modern UI library
-- 🎨 Material UI (MUI) Accessible and customizable UI components
+- 🎨 Tailwind css
 - 🔄 TanStack Query (React Query) Server state and caching management
 - 🌐 Axios HTTP client with a preconfigured instance
 - 🧠 TypeScript Static typing
@@ -42,10 +42,10 @@ src/
 
 ```
 # Clone the repository
-git clone https://github.com/danieljacquin/technical-assessments-template-react.git
+git clone https://github.com/danieljacquin/employee-management-system-frontend.git
 
 # Navigate into the project
-cd react-vite-template
+cd employee-management-system
 
 # Install dependencies
 npm install
