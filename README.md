@@ -70,22 +70,5 @@ npm run build
 | `npm run format`      | Formats code using Prettier                     |
 
 
-## 🧰 Included Configurations
-
-- Path alias (@/) set up in vite.config.ts
-- Preconfigured Axios instance in src/shared/api/apiClient.ts
-- React Query Provider ready in src/shared/providers/
-- Linting and formatting with ESLint + Prettier
-
-
-## 🧪 How to Use This Template
-
-- Click “Use this template” or clone the repo.
-- Update project metadata in package.json.
-- Create or customize your modules under src/modules/.
-- Add routes in src/shared/routes/.
-- Configure your API services and types as needed.
-
-
 ## 🧑‍💻 Author
 - Created by Daniel Jacquin
