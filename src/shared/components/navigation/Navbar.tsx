@@ -10,7 +10,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden sm:flex sm:space-x-8">
-            <NavLink to="">Home</NavLink>
+            <NavLink to="">Employee</NavLink>
             <NavLink to="contact">Contact</NavLink>
             <NavLink to="user">User</NavLink>
           </div>
