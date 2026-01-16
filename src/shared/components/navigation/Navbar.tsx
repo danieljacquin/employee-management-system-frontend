@@ -1,22 +1,14 @@
-import { NavLink } from 'react-router-dom';
-
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-sm">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 justify-between items-center">
-          <div className="shrink-0">
-            <span className="text-xl font-bold text-indigo-600">DJ CHALLANGE</span>
-          </div>
-
-          <div className="hidden sm:flex sm:space-x-8">
-            <NavLink to="">Employee</NavLink>
-            <NavLink to="contact">Contact</NavLink>
-            <NavLink to="user">User</NavLink>
-          </div>
-        </div>
+    <header className="bg-[#1E1B4D] shadow-sm flex justify-between items-center px-10">
+      <div className="text-white leading-tight">
+        <p className="text-2xl font-bold">Something</p>
+        <p className="text-sm">Challenge</p>
       </div>
-    </nav>
+      <div className="bg-[#FED639] w-9 h-9 flex justify-center items-center rounded-3xl">
+        <p className="font-bold text-[#1E1B4D]">A</p>
+      </div>
+    </header>
   );
 };
 
