@@ -64,7 +64,7 @@ const EmployeesTable = ({
   return (
     <div className="border border-gray-300 bg-white rounded-lg shadow-sm p-4">
       <div className="flex justify-between items-center mb-4 px-5">
-        <h2 className="text-lg font-semibold text-gray-800">Employee List</h2>
+        <h2 className="text-lg font-semibold text-gray-800">Employees List</h2>
 
         <div className="space-x-2">
           <button
@@ -115,8 +115,8 @@ const EmployeesTable = ({
           </div>
         </div>
       )}
-      <div className="overflow-x-auto overflow-y-auto max-h-80">
-        <table className="min-w-full">
+      <div className="overflow-auto max-h-80">
+        <table className="w-full m-5">
           <thead className="border-b border-gray-300 text-left whitespace-nowrap">
             <tr>
               {columns.map((column) => (
