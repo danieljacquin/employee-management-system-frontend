@@ -76,7 +76,7 @@ const Employees = () => {
     return <div>Error loading employees.</div>;
   }
   return (
-    <div>
+    <>
       <EmployeesTable
         employees={data?.items ?? []}
         onPrev={goToPreviousPage}
@@ -107,7 +107,7 @@ const Employees = () => {
       <Modal isOpen={openDelete} onClose={handleCloseModalDelete} size="sm">
         <DeleteConfirmation onClose={handleCloseModalDelete} onDelete={deleteEmployee} />
       </Modal>
-    </div>
+    </>
   );
 };
 
